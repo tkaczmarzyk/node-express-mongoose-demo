@@ -26,7 +26,7 @@ describe('Users', function () {
         })
       })
 
-      it('no email - should respond with errors', function (done) {
+      xit('no email - should respond with errors', function (done) {
         request(app)
         .post('/users')
         .field('name', 'Foo bar')
@@ -39,7 +39,7 @@ describe('Users', function () {
         .end(done)
       })
 
-      it('no name - should respond with errors', function (done) {
+      xit('no name - should respond with errors', function (done) {
         request(app)
         .post('/users')
         .field('name', '')
