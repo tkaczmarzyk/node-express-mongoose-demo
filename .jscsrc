@@ -1,0 +1,7 @@
+{
+  "preset": "node-style-guide",
+  "excludeFiles": ["node_modules/**", "./public/js/**"],
+  "disallowSpacesInFunction": null,
+  "requireCapitalizedComments": null,
+  "requireTrailingComma": null 
+}
